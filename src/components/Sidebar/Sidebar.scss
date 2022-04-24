@@ -1,0 +1,42 @@
+@import '../../assets/Variables/Variables.scss';
+
+.nav-bar {
+    flex: 1;
+    height: calc(100vh - 100px);
+    background-color: white;
+    position: sticky;
+    top: 50px;
+    .nav-bar-wrapper {
+        padding: 0 1.5rem;
+        color: #555;
+       .nav-bar-title{
+           align-items: center;
+           font-size: 1.8rem;
+           color: purple;
+       }
+       .nav-bar-list{
+            list-style: none;
+            padding: 0rem .6rem;
+            
+            .nav-bar-list-item {
+                font-size: 1rem;
+                padding: .5rem;
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                &:hover {
+                    background-color: $sidebar-hover-color;
+                }
+                .nav-bar-icon {
+                    margin-right: 10px;
+                    font-size: 2rem;
+                }
+            }
+            // .nav-bar-list-item.active {
+            //     background-color: $sidebar-hover-color;
+            // }
+        }
+    }
+}
+
+
