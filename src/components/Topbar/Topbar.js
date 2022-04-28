@@ -17,16 +17,17 @@ const Topbar = () => {
                 </div>
                 <div className='topRight'>
                     <div className='topbarIcon'>
-                        <GrNotification />
+                        <GrNotification className='icon'/>
                     </div>
                     <div className='topbarIcon'>
-                        <GrLanguage />
+                        <GrLanguage  className='icon' />
+                         English
                     </div>
                     <div className='topbarIcon'>
-                        <FcSettings />
+                        <FcSettings className='icon'/>
                     </div>
-                    <div className='topbarIcon avatar'>
-                        <FaUserCircle />
+                    <div className='topbarIcon'>
+                        <FaUserCircle className='icon avatar'/>
                     </div>
                 </div>
             </div>

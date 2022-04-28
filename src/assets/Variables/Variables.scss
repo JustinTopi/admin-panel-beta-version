@@ -1,2 +1,12 @@
 $primary-color: #39c0ba;
 $sidebar-hover-color: #e5f6f5;
+
+@keyframes transitionD {
+    from {
+      opacity: 0;
+      
+    }
+    to {
+      opacity: 1;
+    }
+  }

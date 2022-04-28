@@ -1,8 +1,13 @@
-.container{
-    display: flex;
-    .others {
-        flex: 4;
-        background-color: darkcyan;
+.App{
+    .page1 {
+        width: 100%;
+    }
+    .page2 {
+        display: flex;
+        flex: 1;
+        .page3 {
+            flex: 4;
+        }
     }
 }
 

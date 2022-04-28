@@ -1,0 +1,9 @@
+@import '../../assets/Variables/Variables.scss';
+
+.leaflet-container {
+  width: 100%;
+  height: calc(100vh);
+  float: right;
+  position: relative;
+  animation: transitionD 2.5s;
+}

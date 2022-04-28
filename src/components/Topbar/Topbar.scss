@@ -3,7 +3,7 @@
 .topbar{
     width: 100%;
     height: 100px;
-    background-color: yellow;
+    background-color: #f3f1e3;
     .topbarWrapper{
         height: 100%;
         padding: 0 1.5rem;
@@ -11,23 +11,30 @@
         align-items: center;
         justify-content: space-between;
         .topLeft{
-           
+
         }
         .topRight {
             display: flex;
             align-items: center;
             .topbarIcon {
+                display: flex;
+                align-items: center;
+                .avatar {
+                    font-size: 6rem !important;
+                    &:hover {
+                        color: $primary-color;
+                    }
+                }
+                .icon{
                 position: relative;
                 cursor: pointer;
-                margin-right: 1rem;
-                font-size: 1.5rem;   
-            }
-            .avatar {
-                font-size: 3.2rem;
-                &:hover {
-                    color: $primary-color;
+                padding: 20px;
+                font-size: 4rem;
+                
                 }
+                  
             }
+             
         }
     }
 }
